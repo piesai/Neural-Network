@@ -82,6 +82,7 @@ for i in range(1,1000):
   y=reluM(b)
   return y
  y=forward(x,w,p)
+ print(x)
  print(y)
  def cost(y):
     costy=(y[0][0]-yreel(x))**2
